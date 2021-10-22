@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+{% load staticfiles %}
+
+<html>
+    <h1>Hello there</h1>
+    <h2>{{ boldmessage }}</h2>
+    <h2 class="text-center">Centred?</h2>
+    <a href="projectapp/about/">About</a>
+    
+    <div>
+        <img src="{% static 'images/imageofcode.png' %}"
+             alt="Picture of code" />
+    </div>
+
+</html>
